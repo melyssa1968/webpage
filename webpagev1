@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RacepointAI - Transforming CPQ with AI-powered solutions.">
+    <title>RacepointAI | Revolutionizing Configure, Price, and Quote</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0078D4;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .cta {
+            background-color: #ff8c00;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin: 30px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .cta:hover {
+            background-color: #e67600;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+        }
+        .feature-box {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        .feature {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px;
+            flex: 0 1 30%;
+        }
+        .feature h3 {
+            color: #0078D4;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        .feature p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .feature {
+                flex: 0 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RacepointAI</h1>
+    <p>Revolutionizing CPQ for Industrial Manufacturing with AI</p>
+</header>
+
+<div class="cta" onclick="window.location.href='https://racepoint.ai/contact';">
+    Get Started Now! Transform Your Quoting Process
+</div>
+
+<section class="section">
+    <h2>What is RacepointAI?</h2>
+    <p>RacepointAI transforms the Configure, Price, and Quote (CPQ) process for industrial manufacturers by leveraging AI, machine learning, and large language models. Accelerate time-to-quote, improve customer experience, and make better decisions with AI-driven insights.</p>
+</section>
+
+<section class="section feature-box">
+    <div class="feature">
+        <h3>Natural Language Assistant</h3>
+        <p>Interprets natural language requests to generate quotes, engage in Q&A, and correct errors for a smooth user-friendly experience.</p>
+    </div>
+    <div class="feature">
+        <h3>Configuration Assistant</h3>
+        <p>Provides optimal product configurations using AI and machine learning, offering tailored recommendations to meet customer needs.</p>
+    </div>
+    <div class="feature">
+        <h3>Intelligent Workflow Assistant</h3>
+        <p>Automates the approval process, manages escalations, and provides flexible routing to streamline your quoting operations.</p>
+    </div>
+</section>
+
+<section class="section feature-box">
+    <div class="feature">
+        <h3>Quote Management</h3>
+        <p>Handles quote creation, modification, and tracking. Ensures quotes are based on up-to-date configurations and pricing rules.</p>
+    </div>
+    <div class="feature">
+        <h3>Adaptive Feedback Assistant</h3>
+        <p>Continuously improves AI models and processes through user feedback to optimize future configurations, pricing, and workflows.</p>
+    </div>
+    <div class="feature">
+        <h3>Role-Based Access & Authorization</h3>
+        <p>Customizes user access based on roles within the organization, ensuring data security and traceability across all modules.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 RacepointAI. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
