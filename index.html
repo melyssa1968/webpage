@@ -7,7 +7,7 @@
     <title>RacepointAI | Revolutionizing Configure, Price, and Quote</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -16,24 +16,25 @@
             background-color: #0078D4;
             color: white;
             text-align: center;
-            padding: 40px 0;
+            padding: 60px 20px;
         }
         header h1 {
-            font-size: 3em;
+            font-size: 3.5em;
             margin: 0;
             font-weight: bold;
         }
         header p {
-            font-size: 1.2em;
+            font-size: 1.5em;
+            margin: 20px 0;
         }
         .cta {
-            background-color: #ff8c00;
+            background-color: #FF8C00;
             color: white;
             padding: 20px;
             text-align: center;
-            margin: 30px 0;
             font-size: 1.5em;
             font-weight: bold;
+            margin: 30px 0;
             border-radius: 8px;
             cursor: pointer;
             transition: background-color 0.3s ease;
@@ -42,7 +43,7 @@
             background-color: #e67600;
         }
         .section {
-            padding: 40px 20px;
+            padding: 60px 20px;
             max-width: 1200px;
             margin: 0 auto;
             text-align: center;
@@ -50,26 +51,30 @@
         .section h2 {
             font-size: 2.5em;
             color: #333;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
         .section p {
-            font-size: 1.2em;
+            font-size: 1.3em;
             color: #666;
             line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
         }
         .feature-box {
             display: flex;
-            justify-content: space-around;
-            margin: 40px 0;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
             flex-wrap: wrap;
         }
         .feature {
             background-color: white;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin: 20px;
             flex: 0 1 30%;
+            text-align: center;
         }
         .feature h3 {
             color: #0078D4;
@@ -80,17 +85,37 @@
             font-size: 1.1em;
             color: #555;
         }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+        .testimonials {
+            background-color: #E6E6E6;
+            padding: 60px 20px;
         }
-        footer p {
-            margin: 0;
+        .testimonials h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+        .testimonial {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .testimonial p {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .testimonial-author {
+            font-weight: bold;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
         }
         @media (max-width: 768px) {
             .feature {
@@ -111,29 +136,26 @@
 </div>
 
 <section class="section">
-    <h2>What is RacepointAI?</h2>
-    <p>RacepointAI transforms the Configure, Price, and Quote (CPQ) process for industrial manufacturers by leveraging AI, machine learning, and large language models. Accelerate time-to-quote, improve customer experience, and make better decisions with AI-driven insights.</p>
+    <h2>Why RacepointAI?</h2>
+    <p>We accelerate the Configure, Price, and Quote (CPQ) process for industrial manufacturers using AI and machine learning, enabling faster quotes, better decision-making, and an enhanced customer experience.</p>
 </section>
 
 <section class="section feature-box">
     <div class="feature">
         <h3>Natural Language Assistant</h3>
-        <p>Interprets natural language requests to generate quotes, engage in Q&A, and correct errors for a smooth user-friendly experience.</p>
+        <p>Generates quotes and answers questions with ease using flexible, AI-powered chat.</p>
     </div>
     <div class="feature">
         <h3>Configuration Assistant</h3>
-        <p>Provides optimal product configurations using AI and machine learning, offering tailored recommendations to meet customer needs.</p>
+        <p>Leverages machine learning to recommend optimal configurations tailored to customer needs.</p>
     </div>
     <div class="feature">
         <h3>Intelligent Workflow Assistant</h3>
-        <p>Automates the approval process, manages escalations, and provides flexible routing to streamline your quoting operations.</p>
+        <p>Automates approval processes, manages escalations, and provides flexible routing to streamline your quoting operations.</p>
     </div>
-</section>
-
-<section class="section feature-box">
     <div class="feature">
         <h3>Quote Management</h3>
-        <p>Handles quote creation, modification, and tracking. Ensures quotes are based on up-to-date configurations and pricing rules.</p>
+        <p>Tracks quotes in real-time, handles lifecycle management, and integrates approvals seamlessly.</p>
     </div>
     <div class="feature">
         <h3>Adaptive Feedback Assistant</h3>
@@ -145,8 +167,31 @@
     </div>
 </section>
 
+<section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+        <p>"RacepointAI reduced our quoting process from days to hours, and the accuracy has been remarkable."</p>
+        <p class="testimonial-author">- CEO, Manufacturing Company</p>
+    </div>
+    <div class="testimonial">
+        <p>"Thanks to RacepointAI, we have streamlined our workflows and our team is much more productive."</p>
+        <p class="testimonial-author">- VP of Sales, Industrial Equipment</p>
+    </div>
+</section>
+
+<section class="cta" style="background-color: #FF8C00; color: white; text-align: center; padding: 60px 20px;">
+    <h2 style="font-size: 2.5em; font-weight: bold;">Ready to Transform Your CPQ Process?</h2>
+    <p style="font-size: 1.3em; margin-bottom: 30px;">Join hundreds of manufacturers who have accelerated their sales cycles with RacepointAI.</p>
+    <button style="background-color: white; color: #FF8C00; padding: 15px 30px; border: none; font-size: 1.2em; border-radius: 5px; cursor: pointer;" onclick="window.location.href='https://racepoint.ai/demo';">Request a Demo</button>
+</section>
+
 <footer>
     <p>&copy; 2024 RacepointAI. All rights reserved.</p>
+    <div>
+        <a href="https://racepoint.ai/privacy">Privacy Policy</a>
+        <a href="https://racepoint.ai/terms">Terms of Service</a>
+        <a href="https://racepoint.ai/contact">Contact Us</a>
+    </div>
 </footer>
 
 </body>
