@@ -3,6 +3,10 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/__clerk/:path*",
+      "destination": "https://clerk.racepoint.ai/:path*"
+    },
+    {
       "source": "/asset-access",
       "destination": "https://asset-access-kappa.vercel.app/asset-access"
     },
