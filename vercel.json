@@ -3,10 +3,6 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/__clerk/:path*",
-      "destination": "https://asset-access-kappa.vercel.app/asset-access/__clerk/:path*"
-    },
-    {
       "source": "/asset-access",
       "destination": "https://asset-access-kappa.vercel.app/asset-access"
     },
@@ -16,4 +12,3 @@
     }
   ]
 }
-
