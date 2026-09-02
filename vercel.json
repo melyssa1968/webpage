@@ -1,4 +1,14 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/asset-access",
+      "destination": "https://asset-access-kappa.vercel.app/asset-access"
+    },
+    {
+      "source": "/asset-access/:path*",
+      "destination": "https://asset-access-kappa.vercel.app/asset-access/:path*"
+    }
+  ]
 }
